@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&family=Raleway:ital,wght@0,300;0,400;1,400&family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    font-family: 'Raleway';
+}
+.accordion-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px 50px;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+}
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+/* MyAccordion.css*/
+.accordion-item {
+    width: 600px;
+}
+.quesiton-answer {
+    border: 2px solid rgb(0, 0, 0, .1);
+    margin: 10px;
+    background-color: rgba(220, 220, 220, 0.221);
+}
+.question-and-btn {
+    display: flex;
+    position: relative;
+    padding: 20px 10px;
+}
+.accordion-question {
+    padding: 0 10px;
+}
+.accordion-button {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.accordion-button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: rgb(192, 192, 192);
+    color: white;
+}
+.accordion-answer {
+    padding: 20px;
+}
